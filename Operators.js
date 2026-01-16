@@ -1,3 +1,6 @@
+console.log("//Create a simple calculator that performs://");
+console.log("            ");
+
 console.log('1.Addition:');
 let a,b,c;
 a=10;
