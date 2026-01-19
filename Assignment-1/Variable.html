@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variable Exercise</title>
+  <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=100&id=N6KusiXxvQeo&format=png&color=000000">
+
+    <style>
+    h1{
+      text-align: center;
+      color:purple;
+    }
+    h2{
+      text-align: center;
+      color:darkred;
+      text-decoration: underline;
+    }
+
+  label{
+  font-size: 16px;
+  font-weight: 600;
+  color:palevioletred;
+  display: block;
+  margin-bottom: 4px;
+}
+
+
+input[type="text"],
+input[type="number"] {
+  width: 250px;
+  padding: 8px 10px;
+  border: 2px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+
+}
+
+
+input:focus {
+  border-color: purple;
+  background-color: #836da4;
+}
+
+
+::placeholder {
+  color:mediumblue;
+  font-style: italic;
+  font-size: 13px;
+}
+
+
+input[type="radio"] {
+  
+  margin-right: 5px;
+}
+
+
+button {
+  padding: 8px 16px;
+  background-color:lightpink;
+  color:deeppink;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:palevioletred;
+}
+
+
+fieldset {
+  background-color: rgb(238, 237, 236);
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid purple;
+  border-radius: 10px;
+}
+
+
+
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h1>JavaScript Variable Exercise</h1>
+    <h2>Check the console😊</h2>
+  </header>
+
+  <main>
+  <fieldset>
+  <label  for="isStudent">Are you a student?</label><br>
+  <input type="radio" name="status" >Yes
+    <input type="radio" name="status" > No<br><br>
+    <label for="input">Username:</label>
+  <input type="text" placeholder="Enter your username.." id="username"><br><br>
+  <label for="age">Age:</label>
+  <input type="number" placeholder="Enter your age.." id="age"><br><br>
+    <label for="hobbies">Hobbies:</label>
+  <input type="text" placeholder="Enter your hobbies.." id="hobbies"><br><br>
+  <label for="address">Address:</label>
+  <input type="text" placeholder="Enter your address" id="address"><br><br>
+  <button type="submit" id="btn">Submit</button>
+
+  <h1 id="title"></h1>
+  <h1 id="Age"></h1>
+  <h1 id="Hobbies"></h1>
+  <h1 id="Address"></h1>
+  </fieldset>
+  </main>
+
+  <footer>
+    <p>&copy; All rights reserved by Puspi.</p>
+  </footer>
+
+  <script src="Variable.js"></script>
+
+</body>
+</html>
